@@ -386,7 +386,7 @@
 			"app": "OpenShift",
 			"provider": "9d2c71fc-96ba-4b4a-93b3-14def5bc96fc"
 		},
-		"bastionVmSize": "Standard_DS2_v2",
+		"bastionVmSize": "Standard_E2s_v3",
 		"singlequote": "'",
 		"sshKeyPath": "[concat('/home/', parameters('adminUsername'), '/.ssh/authorized_keys')]",
 		"bastionPrepScriptUrl": "[concat(parameters('_artifactsLocation'), '/scripts/bastionPrep.sh')]",

@@ -6,19 +6,19 @@
 			"value": "https://raw.githubusercontent.com/Microsoft/openshift-container-platform/master"
 		},
 		"masterVmSize": {
-			"value": "Standard_DS2_v2"
+			"value": "Standard_E2s_v3"
 		},
 		"infraVmSize": {
-			"value": "Standard_DS2_v2"
+			"value": "Standard_E2s_v3"
 		},
 		"nodeVmSize": {
-			"value": "Standard_DS2_v2"
+			"value": "Standard_E2s_v3"
 		},
 		"storageKind": {
-			"value": "changeme"
+			"value": "managed"
 		},
 		"openshiftClusterPrefix": {
-			"value": "changeme"
+			"value": "rhocp"
 		},
 		"masterInstanceCount": {
 			"value": 3
@@ -27,16 +27,16 @@
 			"value": 2
 		},
 		"nodeInstanceCount": {
-			"value": 1
+			"value": 2
 		},
 		"dataDiskSize": {
 			"value": 128
 		},
 		"adminUsername": {
-			"value": "changeme"
+			"value": "clusteradmin"
 		},
 		"openshiftPassword": {
-			"value": "changeme"
+			"value": ""
 		},
 		"enableMetrics": {
 			"value": "false"
@@ -45,40 +45,40 @@
 			"value": "false"
 		},
 		"rhsmUsernameOrOrgId": {
-			"value": "changeme"
+			"value": ""
 		},
 		"rhsmPasswordOrActivationKey": {
-			"value": "changeme"
+			"value": ""
 		},
 		"rhsmPoolId": {
-			"value": "changeme"
+			"value": ""
 		},
 		"sshPublicKey": {
-			"value": "GEN-SSH-PUB-KEY"
+			"value": ""
 		},
 		"keyVaultResourceGroup": {
-			"value": "changeme"
+			"value": "keyvaultrg"
 		},
 		"keyVaultName": {
-			"value": "changeme"
+			"value": "keyvaults"
 		},
 		"keyVaultSecret": {
-			"value": "changeme"
+			"value": "keysecret"
 		},
 		"enableAzure": {
-			"value": "false"
+			"value": "true"
 		},
 		"aadClientId": {
-			"value": "changeme"
+			"value": ""
 		},
 		"aadClientSecret": {
-			"value": "changeme"
+			"value": ""
 		},
 		"defaultSubDomainType": {
 			"value": "nipio"
 		},
 		"defaultSubDomain": {
-			"value": "changeme"
+			"value": ""
 		}
 	}
 }
